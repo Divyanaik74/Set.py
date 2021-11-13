@@ -1,0 +1,15 @@
+#def two sets are E and N
+E = {0, 2, 4, 6, 8}
+N = {1, 2, 3, 4, 5}
+
+#set Union of E and N
+print("Union of E and N is", E|N)
+
+#set Intersection of E and N
+print("\n Intersection of E and N is", E&N)
+
+#set Difference of E and N
+print("\n Difference of E and N is", E-N)
+
+#set Symmetric differrnce of E and N
+print("\n Symmetric differenec of E and N is", E^N)
